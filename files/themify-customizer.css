@@ -1,0 +1,90 @@
+/* Themify Customize Styling */
+body, body.boxed-content, body.boxed-layout, body.boxed-compact {	
+	background-repeat: repeat-y;
+	background-color: #ffcc00;
+	background-color: rgba(255,204,0,1);
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+body {	
+	font-family:Spinnaker;	font-size:18px;
+ 
+}
+h1 {	
+	font-family:Paytone One;	font-weight:bold;
+	font-weight:bold;
+	font-size:60px;
+ 
+}
+#headerwrap {	
+	background-color: #ffcc00;
+	background-color: rgba(255,204,0,1);
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #e80303;
+	border-bottom-color: rgba(232,3,3,1.00); 
+}
+#header {	
+	background-color: #ffcc00;
+	background-color: rgba(255,204,0,1);
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#header a {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#header a:hover {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#site-logo, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo img {		width: 200px;
+	height: 65px; 
+}
+#site-logo, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo a {		width: 200px; 
+}
+#site-logo {		position:relative;
+
+	left: -255px; 
+}
+#main-nav {		position:fixed;
+
+	top: 17px;
+	right: 3%;
+	background-color: #e81515;
+	background-color: rgba(232,21,21,1.00); 
+}
+#main-nav a {	
+	border: none; 
+}
+#main-nav a, #main-nav > li > a {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#main-nav a:hover {	
+	background-color: transparent; 
+}
+#main-nav a:hover, #main-nav > li > a:hover {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a {	
+	background-color: #c20808;
+	background-color: rgba(194,8,8,1.00); 
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
+#main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	background-color: transparent; 
+}
+.post-title, .post-title a {		font-size:30px;
+
+	color: #fb00ff;
+	color: rgba(251,0,255,1.00); 
+}
+.module-title {	
+	color: #ffffff;
+	color: rgba(255,255,255,1.00); 
+}
