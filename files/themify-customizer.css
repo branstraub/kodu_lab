@@ -1,10 +1,10 @@
 /* Themify Customize Styling */
-body, body.boxed-content, body.boxed-layout, body.boxed-compact {	
+body, body.boxed-content, body.boxed-layout, body.boxed-compact {
 	background-repeat: repeat-y;
-	background-color: #ffcc00;
-	background-color: rgba(255,204,0,1);
+	background-color: #34D6D4;
+	background-color: rgb(45, 171, 169);
 	color: #ffffff;
-	color: rgba(255,255,255,1.00); 
+	color: rgba(255,255,255,1.00);
 }
 body {	
 	font-family:Spinnaker;	font-size:18px;
@@ -16,19 +16,19 @@ h1 {
 	font-size:60px;
  
 }
-#headerwrap {	
-	background-color: #ffcc00;
-	background-color: rgba(255,204,0,1);
+#headerwrap {
+	background-color: #135ABF;
+	background-color: #135ABF;
 	border-bottom-style: solid;
 	border-bottom-width: 3px;
-	border-bottom-color: #e80303;
-	border-bottom-color: rgba(232,3,3,1.00); 
+	border-bottom-color: #135ABF;
+	border-bottom-color: #135ABF;
 }
-#header {	
+#header {
 	background-color: #ffcc00;
-	background-color: rgba(255,204,0,1);
+	background-color: rgb(19, 90, 191);
 	color: #ffffff;
-	color: rgba(255,255,255,1.00); 
+	color: rgba(255,255,255,1.00);
 }
 #header a {	
 	color: #ffffff;

@@ -4,7 +4,7 @@
 .header-leftpane #headerwrap, .header-slide-out #headerwrap,
 #headerwrap,
 #footerwrap {
-	background-color: #3dc7fe;
+	background-color: #135ABF;
 }
 #site-logo a,
 #site-description {
@@ -224,7 +224,7 @@ button:hover,
 }
 .transparent-header #headerwrap.fixed-header,
 #headerwrap.fixed-header {
-	background-color: rgba(61, 199, 254, .9);
+	background-color: #135ABF;
 }
 .pull-down:before {
 	border-color: #3dc7fe;

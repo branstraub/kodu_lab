@@ -1909,6 +1909,7 @@ HEADER TOP BAR
 }
 .header-top-bar .header-bar {
 	float: left;
+	visibility: visible;
 }
 .header-top-bar .pull-down {
 	right: 28px;
@@ -1923,6 +1924,7 @@ HEADER TOP BAR
 }
 .header-top-bar.fixed-header-on #site-logo img {
 	height: 30px;
+	/* visibility: inherit; */
 	width: auto;
 	transition: all .3s;
 }
