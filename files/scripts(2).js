@@ -15,7 +15,8 @@ jQuery(function($){
 	} );
 
 	function send_form( form ) {
-		var data = {
+		
+		/*var data = {
 			action : 'builder_contact_send',
 			'contact-name' : $( '[name="contact-name"]', form ).val(),
 			'contact-email' : $( '[name="contact-email"]', form ).val(),
@@ -23,14 +24,14 @@ jQuery(function($){
 			'contact-message' : $( '[name="contact-message"]', form ).val(),
 			'contact-sendcopy' : $( '[name="send-copy"]', form ).val(),
 			'contact-settings' : $( '.builder-contact-form-data', form ).html()
-		};
-		if( form.find('[name="g-recaptcha-response"]').length > 0 ) {
-			data['contact-recaptcha'] = form.find('[name="g-recaptcha-response"]').val();
-		}
+		};*/
+		
+		   
+		
 		$.ajax({
-			url : form.prop( 'action' ),
+			url : 'php/worker.php',
 			method : 'POST',
-			data : data,
+			data : {email:$( '[name="contact-email"]', form ).val(), message:$( '[name="contact-message"]', form ).val(), name:$( '[name="contact-name"]', form ).val()},
 			success : function( data ) {
 				form.find( '.contact-message' ).html( data ).fadeIn();
 				form.removeClass( 'sending' );
