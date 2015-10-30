@@ -13,23 +13,20 @@ $email_final = $email;
 $email = "'".$email."'";
 
 
-echo $name;
-echo $message;
-echo $email;
 
 
-    $sendgrid = new SendGrid($api_user, $api_key);
-    $email_sd = new SendGrid\Email();
+$sendgrid = new SendGrid($api_user, $api_key);
+$email_sd = new SendGrid\Email();
 
-    $html = "Nombre: ".$name. ":<br> Email:".$email."<br> Mensaje: ".$message;
-    echo $html;
+$html = "Nombre: ".$name. ":<br> Email:".$email."<br> Mensaje: ".$message;
 
-    $email_sd->addTo($email_final)
-          ->setFrom("b.straub@outlook.com")
-          ->setSubject("Contacto - Kodu")
-          ->setHtml($html);
 
-    $sendgrid->send($email_sd);
+$email_sd->addTo("b.straub@outlook.com")
+->setFrom($email_final)
+->setSubject("Contacto - Kodu")
+->setHtml($html);
+
+$sendgrid->send($email_sd);
   
     
 
