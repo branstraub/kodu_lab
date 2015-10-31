@@ -18,15 +18,15 @@ if ($fd = fopen ($fullPath, "r")) {
         header("Content-Disposition: attachment; filename=\"".$path_parts["basename"]."\""); // use 'attachment' to force a file download
         break;
 		case "kodu":
-        header("Content-type: application/kodu");
+        header("Content-type: application/octet-stream");
         header("Content-Disposition: attachment; filename=\"".$path_parts["basename"]."\""); // use 'attachment' to force a file download
         break;		
         case "Kodu2":
-        header("Content-type: application/Kodu2");
+        header("Content-type: application/octet-stream");
         header("Content-Disposition: attachment; filename=\"".$path_parts["basename"]."\""); // use 'attachment' to force a file download
         break;
         case "kodu2":
-        header("Content-type: application/kodu2");
+        header("Content-type: application/octet-stream");
         header("Content-Disposition: attachment; filename=\"".$path_parts["basename"]."\""); // use 'attachment' to force a file download
         break;
         // add more headers for other content types here
