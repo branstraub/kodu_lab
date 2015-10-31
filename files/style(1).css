@@ -65,9 +65,9 @@ img, fieldset {
 
 .imgtile{
 	    margin-bottom: 20px;
-    width: auto;
-    /* float: inherit; */
-    margin-left: 15%;
+	    width: auto;
+	    /* float: inherit; */
+	    margin-left: 22%;
 }
 /* set img max-width */
 img {
