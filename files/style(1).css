@@ -55,6 +55,12 @@ strong, sub, sup, tt, var, legend, fieldset, figure {
 img, fieldset {
 	border: 0;
 }
+.qmo{
+	width: 150px;
+	height: 45px;
+	margin-left: 20px;
+	padding-top: 1px;
+}
 
 /* set img max-width */
 img {
