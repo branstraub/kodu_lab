@@ -1,8 +1,8 @@
 /* Themify Customize Styling */
 body, body.boxed-content, body.boxed-layout, body.boxed-compact {
 	background-repeat: repeat-y;
-	background-color: #34D6D4;
-	background-color: rgb(45, 171, 169);
+	background-color: #135ABF;
+	background-color: rgba(67, 158, 65, 0.81);
 	color: #ffffff;
 	color: rgba(255,255,255,1.00);
 }
@@ -47,12 +47,12 @@ h1 {
 
 	left: -255px; 
 }
-#main-nav {		position:fixed;
-
-	top: 17px;
-	right: 3%;
-	background-color: #e81515;
-	background-color: rgba(232,21,21,1.00); 
+#main-nav {
+position:fixed;
+top: 17px;
+right: 3%;
+background-color: #2B887A;
+background-color: rgb(45, 195, 173);
 }
 #main-nav a {	
 	border: none; 
@@ -68,9 +68,9 @@ h1 {
 	color: #ffffff;
 	color: rgba(255,255,255,1.00); 
 }
-#main-nav .current_page_item a, #main-nav .current-menu-item a {	
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
 	background-color: #c20808;
-	background-color: rgba(194,8,8,1.00); 
+	background-color: rgb(82, 64, 64);
 }
 #main-nav .current_page_item a, #main-nav .current-menu-item a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
 	color: #ffffff;

@@ -326,6 +326,7 @@ MOBILE NAVIGATION
 	#headerwrap.fixed-header #searchform-wrap,
 	#headerwrap.fixed-header .header-widget {
 		display: block;
+		height: 50px;
 	}
 	.transparent-header #headerwrap #searchform .icon-search::before {
 		color: #000;
