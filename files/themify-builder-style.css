@@ -2958,7 +2958,8 @@ BACKGROUND IMAGE MODE
 	transition: all 0.5s ease-out;
 }
 .row_inner_wrapper {
-	position: relative; /* needed to make sure modules are displayed over the cover */
+	position: relative;/* needed to make sure modules are displayed over the cover */
+	height: auto;
 }
 
 /* fix for color overlay so modules are visible */

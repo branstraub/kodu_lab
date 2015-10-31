@@ -1,7 +1,7 @@
-jQuery(function($){
+function hola(){
 
-	$( 'body' ).on( 'submit', '.builder-contact', function(){
-		var form = $( this );
+	
+		var form = $(".builder_contact");
 
 		if( form.hasClass( 'sending' ) ) {
 			return false;
@@ -12,7 +12,8 @@ jQuery(function($){
 		send_form( form );
 
 		return false;
-	} );
+		
+	};
 
 	function send_form( form ) {
 		
