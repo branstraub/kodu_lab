@@ -2018,6 +2018,7 @@ HEADER TOP BAR
 .header-top-bar #headerwrap.fixed-header .social-widget,
 .header-top-bar #headerwrap.fixed-header #searchform-wrap {
 	display: block;
+	height: 55px;
 }
 
 /* 
