@@ -63,6 +63,12 @@ img, fieldset {
 	padding-top: 1px;
 }
 
+.imgtile{
+	    margin-bottom: 20px;
+    width: auto;
+    /* float: inherit; */
+    margin-left: 15%;
+}
 /* set img max-width */
 img {
 	max-width: 100%;
