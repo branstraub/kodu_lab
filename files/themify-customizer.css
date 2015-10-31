@@ -1,8 +1,8 @@
 /* Themify Customize Styling */
 body, body.boxed-content, body.boxed-layout, body.boxed-compact {
-	background-repeat: repeat-y;
-	background-color: #135ABF;
-	background-color: rgba(164, 165, 191, 0.81);
+	/* background-repeat: repeat-y; */
+	/* background-color: #135ABF; */
+	/* background-color: rgb(177, 57, 57); */
 	color: #ffffff;
 	color: rgba(255,255,255,1.00);
 }
@@ -69,7 +69,7 @@ h1 {
 	color: rgba(255,255,255,1.00); 
 }
 #main-nav .current_page_item a, #main-nav .current-menu-item a {
-	background-color: #c20808;
+	/* background-color: #c20808; */
 	background-color: rgb(82, 64, 64);
 }
 #main-nav .current_page_item a, #main-nav .current-menu-item a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	

@@ -50,6 +50,7 @@ a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, sm
 strong, sub, sup, tt, var, legend, fieldset, figure {
 	margin: 0;
 	padding: 0;
+	/* margin-bottom: -10px; */
 }
 
 img, fieldset {
@@ -319,6 +320,7 @@ button:hover {
 .full_width #layout {
 	width: 100%;
 	max-width: 100%;
+	margin-top: -20px;
 }
 .full_width #content {
 	padding: 0;
@@ -1218,7 +1220,7 @@ HEADER SLIDE OUT
 	/* menu hover */
 	#header #main-nav a:hover,
 	#header #main-nav ul a:hover {
-		color: #ed1e24;
+		color: rgb(82, 64, 64);
 	}
 
 	/* sub-menu icon */
