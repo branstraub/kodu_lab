@@ -138,6 +138,24 @@
 <meta name="theme-color" content="#ffffff">
 <script type="text/javascript" charset="UTF-8" src="./files/api.js" gapi_processed="true"></script>
 
+<!--
+Para recopilar análisis de uso de los usuarios finales sobre su aplicación,
+inserte el script siguiente en cada página que desee supervisar.
+Coloque este código justo antes de la etiqueta </head> de cierre,
+antes de cualquier otro script. Sus primeros datos aparecerán
+automáticamente en tan solo unos segundos.
+-->
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+        }({
+            instrumentationKey:"baf43686-6ed1-46e0-a83f-e055164880d5"
+        });
+        
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script>
+
 </head>
 
 <body class="home page page-id-6021 page-template-default skin-default webkit not-ie full_width sidebar-none no-touch header-top-bar fixed-header footer-block theme-color-blue theme-font-sans-serif tagline-off social-widget-off rss-off search-off header-widgets-off footer-widgets-off footer-menu-navigation-off  filter-hover-none filter-featured-only masonry-enabled skin-styles has-builder animation-on sidemenu-active announcement-bottom fixed-announcement-on announcement-bar-showing page-loaded fixed-header-on">
