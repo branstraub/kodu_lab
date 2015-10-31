@@ -154,7 +154,7 @@ body {
 .themify_announcement.bar .announcement_title {
 	background: #e74c3c;
 	color: #fff;
-	letter-spacing: .05em;
+	letter-spacing: .01em;
 	line-height: 120%;
 	padding: .45em .5em .3em .6em;
 	display: inline-block;
@@ -1130,7 +1130,8 @@ RESPONSIVE
 @media screen and (max-width: 780px) {
 	/* bar */
 	.themify_announcement.bar {
-		font-size: .9em;
+		font-size: .7em;
+		height: 35px;
 	}
 	.themify_announcement.bar .announcement_post {
 		padding-right: 20px;
