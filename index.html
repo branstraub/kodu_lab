@@ -2,12 +2,17 @@
 <!-- saved from url=(0062)file:///C:/Users/bstra/Desktop/Kodu%20-%20Keep%20Focus.html -->
 <html itemscope="itemscope" itemtype="http://schema.org/WebPage" lang="es-ES" class="js csstransitions csstransitions csstransitions csstransitions csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
-
+<meta name="description" content="Kodu Game Lab es una recopilacion de tutoriales, guias y videos sobre Kodu en español">
+<meta name="keywords" content="Kodu,Juegos,2D,3D,Microsoft">
+<meta name="author" content="Branko Straub">
 <title>Kodu</title>
 
 	
-<script>(function(html){ html.className = html.className.replace(/\bno-js\b/,'js'); if (html.classList) { html.classList.add( 'js' ); } else { html.className += ' js'; } })(document.documentElement);</script>
-<style type="text/css">.js.csstransitions .module.wow, .js.csstransitions .themify_builder_content .themify_builder_row, .js.csstransitions .module_row, .js.csstransitions .builder-posts-wrap > .post.wow, .js.csstransitions .fly-in > .post, .js.csstransitions .fly-in .row_inner > .tb-column, .js.csstransitions .fade-in > .post, .js.csstransitions .fade-in .row_inner > .tb-column, .js.csstransitions .slide-up > .post, .js.csstransitions .slide-up .row_inner > .tb-column { visibility:hidden; }</style>
+<script>
+(function(html){ html.className = html.className.replace(/\bno-js\b/,'js'); if (html.classList) { html.classList.add( 'js' ); } else { html.className += ' js'; } })(document.documentElement);
+</script>
+<style type="text/css">.js.csstransitions .module.wow, .js.csstransitions .themify_builder_content .themify_builder_row, .js.csstransitions .module_row, .js.csstransitions .builder-posts-wrap > .post.wow, .js.csstransitions .fly-in > .post, .js.csstransitions .fly-in .row_inner > .tb-column, .js.csstransitions .fade-in > .post, .js.csstransitions .fade-in .row_inner > .tb-column, .js.csstransitions .slide-up > .post, .js.csstransitions .slide-up .row_inner > .tb-column { visibility:hidden; }
+</style>
 	
 <meta name="robots" content="noindex,follow">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -36,7 +41,8 @@
 <script type="text/javascript" src="./files/jquery-migrate.min.js"></script>
 <script type="text/javascript" src="./files/webfont.js"></script>
 
-<style type="text/css">@font-face {
+<style type="text/css">
+@font-face {
     font-family: &#039;Segoe-Pro&#039;;
     src: url(&#039;http://www.yopuedoprogramar.com/css/fonts/segoe.eot&#039;);
     src: url(&#039;http://www.yopuedoprogramar.com/css/fonts/segoe.eot?#iefix&#039;) format(&#039;embedded-opentype&#039;),
@@ -65,7 +71,8 @@
          url(&#039;http://www.yopuedoprogramar.com/css/fonts/segoe_light.svg#segoe&#039;) format(&#039;svg&#039;);
     font-weight: normal;
     font-style: normal;
-}</style>
+}
+</style>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -76,26 +83,27 @@
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script> 
 	<![endif]-->
 	
-<script>			function isSupportTransition() {
-				var b = document.body || document.documentElement,
-					s = b.style,
-					p = 'transition';
-
-				if (typeof s[p] == 'string') { return true; }
-
-				// Tests for vendor specific prop
-				var v = ['Moz', 'webkit', 'Webkit', 'Khtml', 'O', 'ms'];
-				p = p.charAt(0).toUpperCase() + p.substr(1);
-
-				for (var i=0; i<v.length; i++) {
-					if (typeof s[v[i] + p] == 'string') { return true; }
-				}
-				return false;
-			}
-			if ( isSupportTransition() ) {
-				document.documentElement.className += " csstransitions";	
-			}
-			</script>
+<script>	
+	function isSupportTransition() {
+		var b = document.body || document.documentElement,
+			s = b.style,
+			p = 'transition';
+		
+		if (typeof s[p] == 'string') { return true; }
+		
+		// Tests for vendor specific prop
+		var v = ['Moz', 'webkit', 'Webkit', 'Khtml', 'O', 'ms'];
+		p = p.charAt(0).toUpperCase() + p.substr(1);
+		
+		for (var i=0; i<v.length; i++) {
+			if (typeof s[v[i] + p] == 'string') { return true; }
+		}
+		return false;
+		}
+		if ( isSupportTransition() ) {
+		document.documentElement.className += " csstransitions";	
+	}
+</script>
 			
 <style>
 			.tf-tile.size-square-large,
@@ -117,7 +125,8 @@
 			.tf-tile.size-portrait .map-container {
 				width: 240px;
 				height: 480px;
-			}</style>
+			}
+</style>
 			
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -138,13 +147,7 @@
 <meta name="theme-color" content="#ffffff">
 <script type="text/javascript" charset="UTF-8" src="./files/api.js" gapi_processed="true"></script>
 
-<!--
-Para recopilar análisis de uso de los usuarios finales sobre su aplicación,
-inserte el script siguiente en cada página que desee supervisar.
-Coloque este código justo antes de la etiqueta </head> de cierre,
-antes de cualquier otro script. Sus primeros datos aparecerán
-automáticamente en tan solo unos segundos.
--->
+
     <script type="text/javascript">
         var appInsights=window.appInsights||function(config){
             function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
